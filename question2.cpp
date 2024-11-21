@@ -7,7 +7,9 @@ using namespace std;
 int main() {
     vector<int> items = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int target = 10;
-
+    
+    cout << "Elements in the vector: ", display(items);
+    
     int result = find_last_occurrence(items, target);
     if (result != -1) 
         cout << "Last occurrence of " << target << " is at index: " << result << endl;
