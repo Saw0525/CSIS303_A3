@@ -2,6 +2,12 @@
 #include <vector>
 using namespace std;
 
+void display(const vector<int>& items) {
+    for (int item : items) {
+        cout << item << " ";
+    }
+    cout << endl;
+}
 // Recursive function to find the last occurrence of the target
 int linear_search(const vector<int> &items, int target, size_t pos_first, int pos_last) {
     if (pos_first == items.size())
