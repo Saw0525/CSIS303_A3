@@ -41,8 +41,9 @@ int main() {
     cout << "Queue elements after moving front to rear: " ;
     q.display();
 
-
-    int exitCode; //my .exe file was closing immediately after the program execution. So, I added this code to keep the console window open.
+/* After almost finishing my code, I found out that my .exe file was closing immediately after the program execution. 
+    So, I added this code to keep the console window open instead of looping.*/ 
+    int exitCode; 
     cout << " " << endl;
     cout << "Press 0 to Exit from the program: ";
     cin >> exitCode;
